@@ -17,6 +17,6 @@ setup(
     url="https://github.com/umarkhurrammirza/first-python-package",
     install_requires=load_requirements("requirements.txt"),
     entry_points={
-        "console_scripts": ["division=division.divide:divide"],
+        "console_scripts": ["addition_pkg=addition.add:add"],
     },
 )
